@@ -1,11 +1,70 @@
+/* selector {
+    propiedad: valor
+    propiedad: valor
+} */
+
+
+h1 {
+    text-align: center;
+    border-top: solid 5px;
+    border-right: dashed 8px;
+    border-bottom: solid 10px;
+    border-left: dotted 12px;
+    padding-top: 34px;
+    padding-left: 45px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+
+}
+
+h2 {
+    color: yellow;
+    font-size: 25px;
+    background-color: blue ;
+
+}
+
+/* selector de clase */
+
+.soloyo {
+
+text-align: right;
+
+}
+
+nav 
+    {
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2rem;
+text-align: center;
+
+    }
+
+
+nav ul li {
+
+display: inline-block;
+padding: 0 20px 0 20px;
+border: 1px solid black;
+background-color: blueviolet;
+text-decoration: none;
+}
+
+
+
+/*
 .mainmenubtn {
     background-color: skyblue;
     color: white;
     border: none;
     cursor: pointer;
     padding:40px;
-    margin-top:20px;
+    margin-top:0px;
+    z-index: 1000;
 }
+
+*/
 .mainmenubtn:hover {
     background-color: blue;
     }

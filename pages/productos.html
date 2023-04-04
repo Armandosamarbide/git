@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+
     <title>Productos</title>
 </head>
 <body>
@@ -11,26 +13,42 @@
 
     <nav>
         
-        <!-- h2>Barra de navegación</!-->
-        <!-- Items de lista que permiten la navegación -->
-        <!-- ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/sucursales.html">Sucursales</a></li>
-            <li><a href="./pages/productos.html">Productos</a></li>
     
-        </!-->
+
+            
+      <ul>
+      
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/pages/productos.html">Productos</a></li>
+      <li><a href="/pages/sucursales.html">Sucursales</a></li>
+    </ul>
     
-        <div class="dropdown"><li class=" even">
-            <button class="mainmenubtn">Main Menu</button><li class=" odd">
-            <div class="dropdown-child"><li class=" even">
-              <a href="/index.html">Home</a>
-              <a href="/pages/productos.html">Productos</a>
-              <a href="/pages/sucursales.html">Sucursales</a>
-             
-            </div>
-          </div>
-        
-        </nav>
+
+</nav>
+
+        <main>
+
+          <!-- form action="/guardardatos.js" method="post" -->
+          <!-- Dónde vamos a enviar la información y qué método vamos a usar-->
+
+          <hr>
+
+          <form>
+              <label for="name">NOMBRE: </label>
+              <input type="text" id="nombre" required>
+              <br>
+              <input type="number" id="numero" required>
+              <br>
+              <input type="date" id="fecha" required>
+              <br>
+              <input type="button" id="ejemplo" value="Enviar datos">
+              <button>Botón que manda datos</button>
+          </form>
+          
+          
+
+
+        </main>
 
 </body>
 </html>
