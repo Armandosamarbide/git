@@ -4,6 +4,24 @@
 } */
 
 
+
+header {
+
+    background-color: black;
+    height: 50px;
+    display: block;
+    width: 100%;
+
+}
+
+header img {
+    margin: 0 auto;
+    
+    height: auto;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
 h1 {
     text-align: center;
     border-top: solid 5px;
@@ -26,10 +44,11 @@ h2 {
 
 /* selector de clase */
 
-.soloyo {
-
-text-align: right;
-
+main #cuerpo {
+height: 400px;
+display: block;
+width: 100%;
+background-color: green;
 }
 
 nav 
@@ -51,7 +70,11 @@ background-color: blueviolet;
 text-decoration: none;
 }
 
+footer {
 
+    display: block;
+width: 100%;
+}
 
 /*
 .mainmenubtn {
