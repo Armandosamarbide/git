@@ -9,27 +9,15 @@
 
 header {
 
-    background-color: black;
     height: 50px;
     display: block;
     width: 100%;
 
 }
 
-header img {
-    margin: 0 auto;
-    
-    height: auto;
-    vertical-align: middle;
-    max-width: 100%;
-}
-
 h1 {
     text-align: center;
-    border-top: solid 5px;
-    border-right: dashed 8px;
-    border-bottom: solid 10px;
-    border-left: dotted 12px;
+    border: solid;
     padding-top: 34px;
     padding-left: 45px;
     padding-right: 50px;
@@ -38,9 +26,8 @@ h1 {
 }
 
 h2 {
-    color: yellow;
     font-size: 25px;
-    background-color: blue ;
+    /* background-color: blue ; */
 
 }
 
@@ -111,3 +98,7 @@ width: 100%;
 .dropdown:hover .dropdown-child {
     display: block;
 }
+
+table, th, td {
+    border:1px solid black;
+  }
