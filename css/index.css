@@ -102,3 +102,41 @@ width: 100%;
 table, th, td {
     border:1px solid black;
   }
+
+.left {
+
+    float: left;
+}
+
+.right {
+
+    float: right;
+}
+
+.contenedor {
+
+    width: 50%;
+    display: block;
+    float: none;
+    clear: left;
+}
+
+.contenedor img {
+
+    width: 10%;
+    height: auto;
+   
+    
+    
+}
+
+.contenedor p {
+
+    width: 75%;
+    padding-left: 25px;
+}
+
+.segundo p{
+
+     padding-left: 0px;
+}
